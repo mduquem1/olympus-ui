@@ -2,13 +2,17 @@
   "name": "olympus-ui",
   "version": "0.1.0",
   "private": true,
+  "main": "dist/olympus-ui.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "test": "jest src",
+    "build-library": "vue-cli-service build --target lib --name olympus-ui ./src/olympus-ui.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "marked": "^4.3.0",
     "vue": "^3.0.0"
   },
   "devDependencies": {
@@ -16,9 +20,18 @@
     "@vue/cli-plugin-eslint": "~4.5.13",
     "@vue/cli-service": "~4.5.13",
     "@vue/compiler-sfc": "^3.0.0",
+    "@vue/test-utils": "^2.4.0",
+    "autoprefixer": "^10.4.14",
     "babel-eslint": "^10.1.0",
+    "daisyui": "^3.1.7",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0"
+    "eslint-plugin-vue": "^7.0.0",
+    "jest": "^29.5.0",
+    "postcss": "^8.4.21",
+    "sass": "^1.63.6",
+    "sass-loader": "10",
+    "tailwindcss": "^3.3.2",
+    "webpack": "5"
   },
   "eslintConfig": {
     "root": true,
