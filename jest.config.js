@@ -1,7 +1,6 @@
 module.exports = {
-    preset: '@vue/cli-plugin-unit-jest/presets/no-babel',
-    collectCoverage: true,
-    collectCoverageFrom: ['src/**/*.{js,vue}'],
-    coverageDirectory: './coverage',
-  };
-  
+  preset: '@vue/cli-plugin-unit-jest/presets/no-babel',
+  collectCoverage: true,
+  collectCoverageFrom: ['src/**/*.{js,vue}', '!**/node_modules/**'],
+  coverageDirectory: './coverage',
+};
