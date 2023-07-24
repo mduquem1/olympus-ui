@@ -9,6 +9,7 @@
 
 <script>
 export default {
+  name: 'OlContainer',
   props: {
     isFlexCol: {
       type: Boolean,

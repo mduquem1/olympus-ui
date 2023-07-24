@@ -18,8 +18,8 @@
           Preview
         </a>
       </div>
-      <MarkdownDisplay v-show="isPreview" :content="renderMarkdown" />
-      <TextareaInput
+      <OlMarkdownDisplay v-show="isPreview" :content="renderMarkdown" />
+      <OlTextareaInput
         v-show="!isPreview"
         class="markdown-input textarea textarea-bordered textarea-lg w-full h-full"
         :label="label"
@@ -31,13 +31,14 @@
 </template>
 
 <script>
-import TextareaInput from './TextareaInput.vue';
-import MarkdownDisplay from '../ui/markdown-display/index.vue';
+import OlTextareaInput from './TextareaInput.vue';
+import OlMarkdownDisplay from '../ui/markdown-display/index.vue';
 
 export default {
+  name: 'OlMarkdownInput',
   components: {
-    TextareaInput,
-    MarkdownDisplay,
+    OlTextareaInput,
+    OlMarkdownDisplay,
   },
   data() {
     return {

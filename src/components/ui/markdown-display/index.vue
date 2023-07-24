@@ -9,6 +9,7 @@
 import { marked } from 'marked';
 
 export default {
+  name: 'OlMarkdownDisplay',
   props: {
     content: {
       type: String,

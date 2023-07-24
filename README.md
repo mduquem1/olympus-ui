@@ -20,6 +20,8 @@ Login to NPM with `npm login` and follow the instructions. You should be authori
 
 Run `npm publish` to publish compiled files of the newest version (as defined in `package.json`)
 
+----------------------------------------
+
 ### Update package to the new version in consuming repositories
 
 In the project using `olympus-ui` go to its `package.json` file, look for the `olympus-ui` package and update to the newest version.

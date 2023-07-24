@@ -1,20 +1,20 @@
-import Container from './components/ui/container/index.vue';
-import Button from './components/ui/button/index.vue';
-import Loader from './components/ui/loader/index.vue';
-import MarkdownDisplay from './components/ui/markdown-display/index.vue';
+import OlContainer from './components/ui/container/index.vue';
+import OlButton from './components/ui/button/index.vue';
+import OlLoader from './components/ui/loader/index.vue';
+import OlMarkdownDisplay from './components/ui/markdown-display/index.vue';
 
-import MarkdownInput from './components/forms/MarkdownInput.vue';
-import TextareaInput from './components/forms/TextareaInput.vue';
-import TextInput from './components/forms/TextInput.vue';
+import OlMarkdownInput from './components/forms/MarkdownInput.vue';
+import OlTextareaInput from './components/forms/TextareaInput.vue';
+import OlTextInput from './components/forms/TextInput.vue';
 
 export default {
   install(app) {
-    app.component('Container', Container);
-    app.component('Button', Button);
-    app.component('Loader', Loader);
-    app.component('MarkdownInput', MarkdownInput);
-    app.component('TextareaInput', TextareaInput);
-    app.component('TextInput', TextInput);
-    app.component('MarkdownDisplay', MarkdownDisplay);
+    app.component('OlContainer', OlContainer);
+    app.component('OlButton', OlButton);
+    app.component('OlLoader', OlLoader);
+    app.component('OlMarkdownInput', OlMarkdownInput);
+    app.component('OlTextareaInput', OlTextareaInput);
+    app.component('OlTextInput', OlTextInput);
+    app.component('OlMarkdownDisplay', OlMarkdownDisplay);
   },
 };

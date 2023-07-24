@@ -15,6 +15,7 @@
 
 <script>
 export default {
+  name: 'OlTextareaInput',
   props: {
     modelValue: {
       message: String,
