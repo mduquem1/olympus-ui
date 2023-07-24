@@ -7,7 +7,7 @@ import MarkdownInput from './components/forms/MarkdownInput.vue';
 import TextareaInput from './components/forms/TextareaInput.vue';
 import TextInput from './components/forms/TextInput.vue';
 
-export const OlympusUI = {
+export default {
   install(app) {
     app.component('Container', Container);
     app.component('Button', Button);
@@ -18,4 +18,3 @@ export const OlympusUI = {
     app.component('MarkdownDisplay', MarkdownDisplay);
   },
 };
-
