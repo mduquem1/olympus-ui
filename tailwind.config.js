@@ -4,6 +4,6 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
-}
-
+  plugins: [require('daisyui')],
+  purge: ['./src/**/*.{vue,js,ts,jsx,tsx}'],
+};

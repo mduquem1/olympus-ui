@@ -1,6 +1,6 @@
 {
   "name": "olympus-ui",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
@@ -11,6 +11,7 @@
   },
   "main": "dist/olympus-ui.umd.js",
   "dependencies": {
+    "daisyui": "^3.4.0",
     "vue": "^3.3.4"
   },
   "devDependencies": {
