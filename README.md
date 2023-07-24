@@ -1,5 +1,7 @@
 # Olympus UI component library
 
+Component library designed to be used in `Vue.js` projects.
+
 ## Publishing a new version
 
 ### Versioning
