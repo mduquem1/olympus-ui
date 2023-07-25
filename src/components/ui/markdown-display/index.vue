@@ -18,7 +18,10 @@ export default {
   },
   computed: {
     compiledMarkdown: function () {
-      return marked(this.content || '');
+      return marked(this.content || '', {
+        headerIds: false,
+        mangle: false,
+      });
     },
   },
 };
