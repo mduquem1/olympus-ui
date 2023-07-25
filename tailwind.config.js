@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./src/**/*.{html,js,vue}'],
+  content: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
   theme: {
     extend: {},
   },
@@ -37,5 +37,4 @@ module.exports = {
       'winter',
     ],
   },
-  purge: ['./src/**/*.{vue,js,ts,jsx,tsx}'],
 };
