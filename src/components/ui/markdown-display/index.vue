@@ -8,6 +8,8 @@
 <script>
 import { marked } from 'marked';
 
+marked.setOptions({ mangle: false, headerIds: false });
+
 export default {
   name: 'OlMarkdownDisplay',
   props: {
