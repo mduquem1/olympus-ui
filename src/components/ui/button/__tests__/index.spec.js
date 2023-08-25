@@ -17,3 +17,16 @@ test('btn is clicked', () => {
 
   expect(wrapper.emitted('on-click-handle')).toBeTruthy();
 });
+
+test('button is not clickable when disabled', async () => {
+  const wrapper = mount(Button, {
+    attrs: {
+      disabled: true,
+    },
+  });
+
+  const btn = wrapper.find('.btn');
+  await btn.trigger('click');
+
+  expect(wrapper.emitted('on-click-handle')).toBeFalsy();
+});
