@@ -4960,6 +4960,11 @@ vite-jest@^0.1.4:
     magic-string "^0.25.7"
     slash "^4.0.0"
 
+vite-plugin-federation@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/vite-plugin-federation/-/vite-plugin-federation-0.0.1.tgz#0184980a7ea30e182b1e5f7e1cab42192a5c8c4b"
+  integrity sha512-qwCUtAbS/T1v50y98zd/3fLrCprlSL9h2vIgDi/Fi7JztTNt2FigcAkA/eml05zlADAXivh4Y59UM3yyK4mm+w==
+
 vite-raw-plugin@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/vite-raw-plugin/-/vite-raw-plugin-1.0.2.tgz#7be8a6e1275b7a0eb6753d066337957c15f438cd"
