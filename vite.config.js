@@ -31,6 +31,9 @@ export default defineConfig({
   build: {
     target: 'esnext',
   },
+  optimizeDeps: {
+    exclude: ['fsevents'],
+  },
   // build: {
   //   lib: {
   //     entry: 'src/olympus-ui.js',

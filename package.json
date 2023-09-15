@@ -7,7 +7,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "build-library": "vite build --outDir dist",
-    "build-style": "tailwindcss -o dist/build.css --minify",
+    "build-style": "tailwindcss -o dist/assets/build.css --minify",
     "test": "jest src"
   },
   "main": "dist/olympus-ui.umd.js",
