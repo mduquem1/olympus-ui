@@ -25,7 +25,7 @@ export default defineConfig({
         './OlLoader': './src/components/ui/loader/index.vue',
         './OlMarkdownDisplay': './src/components/ui/markdown-display/index.vue',
       },
-      shared: ['vue'],
+      shared: ['vue', 'vite', 'tailwindcss', 'daisyui'],
     }),
   ],
   build: {
