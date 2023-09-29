@@ -3,7 +3,7 @@
     class="container min-w-full h-full"
     :class="isFlexCol && 'page-container__cols'"
   >
-    <slot />
+    <slot></slot>
   </div>
 </template>
 
