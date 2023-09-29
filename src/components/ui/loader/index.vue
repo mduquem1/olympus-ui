@@ -1,15 +1,30 @@
 <template>
   <div class="lds-ring">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div ref="loaderChild"></div>
+    <div ref="loaderChild"></div>
+    <div ref="loaderChild"></div>
+    <div ref="loaderChild"></div>
   </div>
 </template>
 
 <script>
 export default {
   name: 'OlLoader',
+  props: {
+    theme: {
+      type: String,
+      required: false,
+      default: 'light',
+    },
+  },
+  mounted() {
+    if (this.theme !== 'light') {
+      const loaderChildren = this.$refs.loaderChild;
+      Array.from(loaderChildren).forEach((child) => {
+        child.style.borderColor = 'black transparent transparent transparent';
+      });
+    }
+  },
 };
 </script>
 
