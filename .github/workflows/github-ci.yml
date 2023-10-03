@@ -1,5 +1,5 @@
-name: Build and test GitLab docs
-run-name: Build and test GitLab docs
+name: Build and test OlympusUI
+run-name: Build and test OlympusUI
 on:
   push:
     branches: [main]
