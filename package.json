@@ -6,6 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "build-app": "yarn run build-style && yarn run build-library",
     "build-library": "vite build --outDir dist",
     "build-style": "tailwindcss -o dist/build.css --minify",
     "test": "jest src"
